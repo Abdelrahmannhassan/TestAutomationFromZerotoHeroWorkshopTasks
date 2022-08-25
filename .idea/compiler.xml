@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="DemoTestAutomation2" />
+        <module name="TestAutomationFromZerotoHeroWorkshopTasks" />
       </profile>
     </annotationProcessing>
   </component>

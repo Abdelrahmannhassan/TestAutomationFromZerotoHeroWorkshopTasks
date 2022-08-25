@@ -1,5 +1,4 @@
 package testPackage;
-import Utilities.ExcelManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -22,7 +21,6 @@ public class TestClass {
 	UploadFilePage UploadPage;
 	DragAndDropPage DragPage;
 
-	ExcelManager excelManager;
 
 	////////////////////////////////////////////////////
 	////////// Test Cases /////////////////////////////
@@ -125,7 +123,6 @@ public class TestClass {
 		W3Page = new W3SchoolPage(driver);
 		UploadPage = new UploadFilePage(driver);
 		DragPage = new DragAndDropPage(driver);
-		excelManager = new ExcelManager();
 		driver.manage().window().maximize();
 
 	}
